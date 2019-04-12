@@ -1707,7 +1707,7 @@ nav {
 
 #start-scrolling {
 	display: block;
-	position: absolute;
+	position: fixed;
 	width: 200px;
 	height: 100px;
 	margin-left: 600px;
@@ -1722,7 +1722,7 @@ nav {
 	font-family: sans-serif;
 	color: #f0f0f0;
 	line-height: 230px;
-	display: none;
+	z-index: 999000;
 }
 
 @keyframes swiping {
