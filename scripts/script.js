@@ -16,6 +16,8 @@ $.jInvertScroll(['#main'], {
 	height: 200000,	// Page height (the shorter, the faster the scroll)
 	onScroll: function(percent) {
 
+		$('#start-scrolling').css('display', 'none');
+
 		year = Math.round(percent*4519);
 
 		if(year == 4519){
