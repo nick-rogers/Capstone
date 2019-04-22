@@ -1,0 +1,419 @@
+body {
+	margin: 0;
+	background-color: purple;
+
+}
+
+
+
+/*----------------------------- Header ----------------------*/
+
+.nav-wrap {
+	display: block;
+}
+
+.home-button-div {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 280px;
+	top: 0;
+	z-index: 10000;
+	text-align: center;
+	pointer-events: none;
+}
+
+#h-b {
+	display: inline-block;
+	width: 450px;
+	height: 220px;
+	margin-top: 40px;
+	background-size: 100% 100%;
+	background-image: url(../images/mobile-home.svg);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	pointer-events: all;
+}
+
+
+
+.info-div {
+	display: block;
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	z-index: 20000;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.mobile-info {
+	display: block;
+	width: inherit;height: inherit;
+	background-image: url(../images/info.svg);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+
+
+/*----------------------------- Progress Bar ----------------------*/
+
+
+
+.prog {
+	display: block;
+	position: fixed;
+	width: 50px;
+	height: 100vh;
+	background-color: red;
+	z-index: 150000;
+	right: 0;
+	transition: ease all 0.4s;
+	pointer-events: auto;
+	margin: 0;
+	border-width: 0px;
+	border-style: none;
+	padding: 0;
+}
+
+.p-bar {
+	position: absolute;
+	display: block;
+	width: inherit;
+	position: absolute;
+	height: 0px;
+	background-color: yellow;
+	pointer-events: none;
+	top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.over {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	pointer-events: none;
+	z-index: 50000;
+	background-image: url(../images/Screen-20.png);
+	background-size: 100% 120%;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------- Main scroll section ------------------*/
+
+
+
+.scroll {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	height: 50000px;
+	background-color: orange;
+	background-image: url(../images/Screen-20.png);
+	background-size: 100% 100%;
+	z-index: 5000;
+}
+
+
+
+
+
+.mobile-section {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	height: 85px;
+	background-color: #222222;
+	margin-top: 1145px;
+	cursor: pointer;
+	transition: ease all 0.8s;
+	z-index: 60000;
+}
+
+
+
+
+
+.ms2 {
+	margin-top: 2400px;
+}
+
+.ms3 {
+	margin-top: 4000px;
+}
+
+
+
+
+
+
+.split {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	float: left;
+	transition: ease height 1.4s, ease margin-top 1.4s;
+	z-index: 70000;
+	pointer-events: none;
+}
+
+
+.split1 {
+	display: block;
+	width: 100vw;
+	height: 175px;
+	margin-top: -175px;
+}
+
+.split2 {
+	display: block;
+	width: 100vw;
+	height: 175px;
+	margin-top: 80px;
+}
+
+.tri-con {
+	position: absolute;
+	display: block;
+	float: left;
+	width: inherit;
+	height: 215px;
+	bottom: 0;
+	text-align: center;
+	pointer-events: none;
+}
+
+.tc1 {
+	top: 0;
+}
+
+.tri {
+	display: inline-block;
+	width: 460px;
+	height: inherit;
+	background-color: #222222;
+}
+
+.tri1 {
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.tri2 {
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.fill {
+	position: absolute;
+	display: block;
+	width: 100vw;
+	background-color: #222222;
+	height: 0%;
+	transition: ease height 0.6s;
+}
+
+.fill1 {
+	bottom: 0;
+}
+
+.fill2 {
+	top: 0;
+}
+
+
+
+.mob-image {
+	position: absolute;
+	display: block;
+	width: 100vw;
+	height: 445px;
+	margin-top: -185px;
+	text-align: center;
+	z-index: 80000;
+	pointer-events: none;
+	top: 0;
+	/*transition: ease all 0.8s;*/
+}
+
+
+
+
+.mi {
+	display: inline-block;
+	width: 440px;
+	height: inherit;
+	background-color: #222222;
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	background-image: url(../images/im03.png);
+	background-size: 100% 100%;
+	transition: ease all 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dragTest {
+	display: block;
+	position: fixed;
+	width: 500px;
+	height: 50px;
+	background-color: orange;
+	z-index: 300000;
+	margin-top: 300px;
+	display: none;
+}
+
+#dt {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+}
+
+
+
+
+
+.slider {
+	display: block;
+	position: fixed;
+	width: 800px;
+	height: 80px;
+	background-color: orange;
+	z-index: 500000;
+	margin-top: 400px;
+}
+
+.sliderz {
+	-webkit-appearance: none;  /* Override default CSS styles */
+	  appearance: none;
+	  width: 100%; /* Full-width */
+	  height: 25px; /* Specified height */
+	  background: #d3d3d3; /* Grey background */
+	  outline: none; /* Remove outline */
+	  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+	  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	  transition: opacity .2s;
+}
+
+
+.sliderz:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.sliderz::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.sliderz::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
